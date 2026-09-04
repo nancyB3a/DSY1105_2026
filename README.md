@@ -1,6 +1,7 @@
 # FastGo Delivery V1 — Sistema de gestión de despachos en Kotlin
 
-Este documento explica **cómo se construyó** la solución, paso a paso, poniendo énfasis en los conceptos de Programación Orientada a Objetos (POO) de Kotlin que se van aplicando en cada etapa.
+Este documento explica **cómo se construyó** la solución **FastGo Delivery V1**, paso a paso, poniendo énfasis en los conceptos de Programación Orientada a Objetos (POO) de Kotlin que se van aplicando en cada etapa.
+Además dejo una versión alternativa **FastGo Delivery V2** un poco distinta a lo visto en clases, pero para que puedan revisar otras formas de hacer lo mismo.
 
 ## Idea general del sistema
 
