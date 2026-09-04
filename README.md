@@ -2,8 +2,6 @@
 
 Este documento explica **cómo se construyó** la solución **FastGo Delivery V1**, paso a paso, poniendo énfasis en los conceptos de Programación Orientada a Objetos (POO) de Kotlin que se van aplicando en cada etapa.
 
-Además dejo una versión alternativa **FastGo Delivery V2** un poco distinta a lo visto en clases, pero para que puedan revisar otras formas de hacer lo mismo.
-
 ## Idea general del sistema
 
 FastGo Delivery recibe una lista de pedidos (bicicleta, moto o auto), cada uno con un código, una distancia y un cliente asociado. Por cada pedido, el sistema calcula el costo según el tipo de repartidor, aplica el descuento del cliente y el IVA, y simula —de forma asíncrona— la comunicación con la app del repartidor antes de confirmar la entrega.
