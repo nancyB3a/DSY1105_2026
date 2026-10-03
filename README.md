@@ -171,10 +171,6 @@ Esta versión incorpora un conjunto de mejoras respecto a la primera entrega fun
 
 | Mejora | Antes | Ahora |
 |---|---|---|
-| Validación de email en Login | No existía | `esEmailValido()` obligatorio |
-| Largo mínimo de contraseña en Login | No existía | Mínimo 3 caracteres |
-| Contraseña oculta | Se mostraba en texto plano | `PasswordVisualTransformation()` |
-| Validación de email en Registro | Solo verificaba que tuviera un `@` | `esEmailValido()` (regex completa) |
 | Confirmación de contraseña en Registro | No existía | Campo "Confirmar Contraseña" con validación de coincidencia |
 | Utilidad de validación centralizada | Lógica duplicada/inline en cada pantalla | `utils/Validaciones.kt` reutilizable |
 | Navegación tras login/registro exitoso | `navigate()` simple (la pila crecía sin control) | `popUpTo`/`popBackStack` para mantener la pila limpia |
