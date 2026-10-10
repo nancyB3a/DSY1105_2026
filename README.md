@@ -21,7 +21,7 @@ plugins {
 ```toml
 # libs.versions.toml
 [versions]
-ksp = "2.0.21-1.0.28"
+ksp = "2.2.10-2.0.2"
 
 [plugins]
 ksp = { id = "com.google.devtools.ksp", version.ref = "ksp" }
@@ -61,7 +61,7 @@ dependencies {
 ```toml
 # libs.versions.toml
 [versions]
-room = "2.6.1"
+room = "2.8.0"
 
 [libraries]
 androidx-room-runtime  = { group = "androidx.room", name = "room-runtime",  version.ref = "room" }
