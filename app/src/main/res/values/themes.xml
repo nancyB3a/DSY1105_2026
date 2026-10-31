@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Tema base de la ventana; los colores reales los define Compose (ui/theme) -->
+    <style name="Theme.EjComidas" parent="android:Theme.Material.NoActionBar">
+        <item name="android:windowBackground">@color/ion_dark</item>
+    </style>
+</resources>

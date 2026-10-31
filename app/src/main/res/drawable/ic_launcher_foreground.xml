@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Ícono: un plato humeante (zona segura centrada de 66dp dentro de 108dp) -->
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+    <!-- Vapor -->
+    <path
+        android:fillColor="#00000000"
+        android:strokeColor="#FFFFFFFF"
+        android:strokeWidth="3"
+        android:strokeLineCap="round"
+        android:pathData="M44,30 C40,35 48,38 44,44 M54,28 C50,33 58,37 54,43 M64,30 C60,35 68,38 64,44" />
+    <!-- Bowl -->
+    <path
+        android:fillColor="#FF3880FF"
+        android:pathData="M30,52 L78,52 C78,66 68,76 54,76 C40,76 30,66 30,52 Z" />
+    <!-- Borde del bowl -->
+    <path
+        android:fillColor="#FF6FA3FF"
+        android:pathData="M28,49 L80,49 L80,53 L28,53 Z" />
+</vector>
