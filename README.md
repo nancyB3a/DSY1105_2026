@@ -1,16 +1,6 @@
-<<<<<<< HEAD
-# Que Cocino App — versión nativa (Kotlin + Jetpack Compose)
-
-Migración del proyecto Ionic **EjComidas** a Android nativo.
+# Que Cocino App
 
 **Stack:** Kotlin · Jetpack Compose (Material 3) · MVVM · Retrofit + Gson · Room (SQLite) con KSP · Navigation Compose · Coil
-
-## Cómo abrirlo
-1. Descomprime el zip y en Android Studio usa **File → Open** sobre la carpeta `EjComidasNativo`.
-2. Espera a que termine el *Gradle Sync* (descarga las dependencias la primera vez).
-3. Ejecuta en un emulador o dispositivo con internet.
-
-> Si Android Studio ofrece actualizar AGP o las dependencias, puedes aceptar, pero no es necesario.
 
 ## Estructura (MVVM)
 ```
@@ -48,8 +38,8 @@ cl.duoc.ejcomidas
 | `ToastController` | `Snackbar` (mensajes desde el ViewModel) |
 | `animate.css` | `Modifier.animateItem()` |
 
-## Mejoras respecto al original
-- Estados de **carga y error con botón Reintentar** (el original no manejaba errores de red).
+## Funciones de la App: EjComida
+- Estados de **carga y error con botón Reintentar**.
 - En "Por categoría" el corazón indica si la comida ya es favorita y el menú permite quitarla desde ahí.
 - Al cambiar rápido de categoría se cancela la petición anterior (no se mezclan resultados).
 - Menú con **Compartir en…** y **Enviar por email** (asunto y cuerpo con nombre, enlace y foto de la receta).
@@ -67,6 +57,4 @@ CREATE TABLE favoritos (
 );
 ```
 Se puede inspeccionar en Android Studio con **View → Tool Windows → App Inspection → Database Inspector**.
-=======
-# Repositorio DSY1105
->>>>>>> 4c1d2032e3f2cde8d46839bae353021cefa98053
+
